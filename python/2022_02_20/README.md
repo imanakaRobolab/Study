@@ -13,22 +13,25 @@
   今回のデータ構造は特殊で多対多のデータを作成することとする。例えば下記のように。
 
   **商品**
-  id | name | category_id | price
-  ---|------|----------|------
-  A001 | Pen1 | C001 | 800
-  A001 | Pen1 | C002 | 800
+
+  | id   | name | category_id | price |
+  | ---- | ---- | ----------- | ----- |
+  | A001 | Pen1 | C001        | 800   |
+  | A001 | Pen1 | C002        | 800   |
 
   **カテゴリー**
-  id |category_name
-  ---|-----|------------
-  C001 |Stationary
-  C002 |Category2
+
+  | id   | category_name |
+  | ---- | ------------- |
+  | C001 | Stationary    |
+  | C002 | Category2     |
 
   **カテゴリー商品リスト**
-  id | name | category_id | price |category_name
-  ---|------|----------|------|----
-  A001 | Pen1 | C001 | 800 |Category1
-  A001 | Pen1 | C002 | 800 |Category2
+
+  | id   | name | category_id | price | category_name |
+  | ---- | ---- | ----------- | ----- | ------------- |
+  | A001 | Pen1 | C001        | 800   | Category1     |
+  | A001 | Pen1 | C002        | 800   | Category2     |
 
 **注意**：多対多のテーブルを作成する際には商品とカテゴリーを作成してから、カテゴリー商品リストを作成する。
 
