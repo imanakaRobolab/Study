@@ -20,7 +20,7 @@
 
   **カテゴリー**
   id |category_name
-  -|-----|------------
+  ---|-----|------------
   C001 |Stationary
   C002 |Category2
 
