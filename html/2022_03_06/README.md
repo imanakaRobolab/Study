@@ -12,7 +12,7 @@
 
 - 挙動確認用の web ページは下記
 
-[https://imanakarobolab.github.io/Study/html/2022_03_06/html/transition_transform.html](2022_03_06_html用)
+[2022_03_06_html 用](https://imanakarobolab.github.io/Study/html/2022_03_06/html/transition_transform.html)
 
 ## 本日の目標（2）
 
