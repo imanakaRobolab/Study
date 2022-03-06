@@ -41,3 +41,15 @@ section:hover div {
   transition-duration: 2s;
   transition-delay: 0.5s;
 }
+
+div.circle {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: deeppink;
+}
+
+div.circle:hover {
+  background-color: yellow;
+  transition: background-color 3s 0.1s ease;
+}
