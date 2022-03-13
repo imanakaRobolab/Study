@@ -41,7 +41,7 @@ function list_study(){
     filterRetVal.innerText = `filter return value is [${upper10}]`;
     document.body.appendChild(filterRetVal);
 
-    
+    document.querySelector
 
 }
 
