@@ -1,6 +1,6 @@
 .container {
   /* 中央ぞろえ */
-  margin: 40px auto;
+  margin: 0px auto;
 }
 .flex {
   display: flex;
