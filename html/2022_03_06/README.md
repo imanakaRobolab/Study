@@ -21,4 +21,5 @@
 flexbox の justify-content や align-items をもちいて、主軸と交差軸のどこに配置するかを明示する HTML ファイルを作成する。
 　次に Window のサイズが小さくなっていったときに、改行をどのように行うかを制御するようにする（flex-wrap を使用する)。
 　最後に window が縮小したときに主軸に対してどのような分配で最後表示されるかを制御するような HTML ファイルを作成する（flex-grow を使用する）
-![2022_03_15_html 用](https://imanakarobolab.github.io/Study/html/2022_03_06/html/flex_box_training.html)
+
+[2022_03_15_html 用](https://imanakarobolab.github.io/Study/html/2022_03_06/html/flex_box_training.html)
