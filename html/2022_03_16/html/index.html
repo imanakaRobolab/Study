@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Flex Boxデモ用</title>
+</head>
+
+<body class="container">
+    <h1>
+        Flex Box デモ用
+    </h1>
+    <p>ボタンを押下したときに、挙動が変化するようなHTMLファイルの作成を行う</p>
+    <button onclick="alignCenter()">主軸方向に中央ぞろえ</button>
+    <button onclick="alignLeft()">主軸方向に左に揃える</button>
+    <button onclick="alignRight()">主軸方向に右に揃える</button>
+    <button onclick="alignBetween()">主軸方向に間を空けて並べる</button>
+    <div class="flex flex-center">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    <script src="../javascript/buttonAction.js"></script>
+
+</body>
+
+</html>
