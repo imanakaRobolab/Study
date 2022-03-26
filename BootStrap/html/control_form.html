@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- As a heading -->
+    <nav class="navbar navbar-expand-md navbar-light bg-light p-3">
+        <div class="container-fluid">
+            <label class="form-label" class="navbar-brand mb-0 h1">Navbar</label>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <label class="form-label" class="navbar-toggler-icon"></label>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item  me-3 mp-3">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item me-3">
+                        <a class="nav-link active" aria-current="page" href="#">LinkB</a>
+                    </li>
+                    <li class="nav-item me-3">
+                        <a class="nav-link active" aria-current="page" href="#">LinkC</a>
+                    </li>
+                    <li class="nav-item me-3">
+                        <a class="nav-link active" aria-current="page" href="#">LinkD</a>
+                    </li>
+
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control-sm me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-3 bg-light p-3 mb-2">
+        <div class="d-flex flex-wrap justify-content-center">
+            <div class="col-md-5 col-10 me-md-2 ">
+                <label class="form-label">姓</label>
+                <input type="text" class="form-control">
+            </div>
+            <div class="col-md-5 col-10">
+                <label class="form-label">名</label>
+                <input type="text" class="form-control">
+            </div>
+            <div class="col-10 ">
+                <label class="form-label">住所（都道府県）</label>
+                <input type="text" class="form-control">
+                <label class="form-label">住所（市区町村）</label>
+                <input type="text" class="form-control">
+                <label class="form-label">住所（それ以降）</label>
+                <input type="text" class="form-control">
+            </div>
+        </div>
+        <div class="row col-2 mt-2 offset-md-9 offset-9">
+            <button class="btn btn-dark"> send</button>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
