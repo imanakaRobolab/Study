@@ -3,6 +3,7 @@
 ## Python
 
 - [2022_02_20 の勉強用](https://github.com/imanakaRobolab/Study/blob/main/python/2022_02_20/README.md)
+- [2022_05_03 の勉強用](https://github.com/imanakaRobolab/Study/blob/main/python/2022_05_03/README.md)
 
 ## HTML&CSS
 
