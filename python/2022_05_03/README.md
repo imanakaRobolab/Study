@@ -65,3 +65,54 @@ print(list4)
 list5 = re.split(pattern='([a-z,A-Z])', string=str4)
 print(list5)
 ```
+
+## 参照
+
+基本的な上記の演習が終了したら、下記リンクを読む事
+[正規表現のリンク](https://docs.python.org/ja/3/library/re.html)
+
+# 2022_05_04の目標
+
+- pythonを用いたTextI/Oの基本を習得する事
+
+## 簡単なText I/O まとめ
+
+### pythonにおけるIOとは？
+
+pythonのIOは大きく分けて3つ存在している。BynaryI/O TextI/O RawI/Oのが存在してるが、基本的に業務に使用したいものとしては、TextIOのためTextIOに注視する。
+
+TextIOを用いた、主な作業としては、TextFileをPythonプログラム内でOpenして、編集して、閉じる3つの作業なので、この3作業をどのように行うかを下記する。
+
+- TextファイルのOpen 
+  TextファイルをOpenするときには、組み込み関数のOpenを使用する。
+- Textファイルの編集
+  Textファイルの編集にはwriteメソッドまたはwritelinesメソッドを使用する。
+  この二つの違いはwriteメソッドは文字列型を引数にもち、引数の文字列を下記込む動作を行う。writelinesメソッドでは、リストまたは文字列型を引数にもって
+  引数を書き込むことができる。（正直なところどっちでもよい）
+- Textファイルの閲覧
+  Textファイルを閲覧したい時もあると思う（基本的にはTextEditorでみれば良いので正直使用用途はバイナリファイルを見るとき以外ないような気がするが）
+  その際にはreadオブジェクトを使用する。
+- Textファイルのclose
+  TextファイルをOpenしたときには、Fileオブジェクトを閉じるために、closeメソッドを呼び出す必要が必ずある。
+  closeを呼び出さないと、メモリを圧迫するだけではなく、最悪の場合、編集の際に実施した処理が保存されないなどの場合が生じる。
+
+### 例
+  ```python
+  ofile = open('../text_file/sample.html','r')
+  for ofile_str in ofile:
+    print(ofile_str)
+  ofile_str.close()
+  ```
+
+### fileモジュールのOpenモード表
+
+modeの文字列 |意味
+------- | -------
+r | 読み取り専用
+w | 書き込み専用（このモードで開いたときは、開いたファイルの過去の書き込みを削除してから開かれる）
+a | 追記（開くファイルの過去の書き込みを消したくない際に使用する)
+
+### 課題
+- text_file/sample.htmlファイルのbodyメソッドの中身はloremで自動生成した文字列である。bodyメソッドの中身のみを出力するプログラムを作成しなさい
+- bodyメソッドの中身の単語数を出力するプログラムを作成しないさい
+解答はtext_io_html.pyに記載しているが、単語数のチェックには問題がある。例えば「Mike’s pen」などの場合は正規表現の関係で、3単語としてカウントされてしまう。
