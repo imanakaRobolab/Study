@@ -124,3 +124,16 @@ a | 追記（開くファイルの過去の書き込みを消したくない際�
 
 osモジュールをインポートして、そこに記述されているメソッドを使用する
 
+## Openpyxl入門
+
+OpenpyxlとはpythonからExcelの編集を行うことができるフリーのモジュールである。
+Excel2010に対応しているが、基本的な動作は2016などにも対応している。
+
+###　課題
+- Openpyxlを用いてExcelファイルを作成する
+  解答はExcel_make_worksheet.pyのExecute1メソッドに記述する
+- Excelの関数の挿入をpythonから行う。
+  解答はExcel_make_worksheet.pyのExecute2メソッドに記述する
+- コマンドライン上からパス＋キーワードを作成して、grep機能を作成する。
+  解答はExcel_make_worksheet.pyのExecute1メソッドに記述する
+  解答はExcel_make_worksheet.pyに記載している
