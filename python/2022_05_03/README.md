@@ -137,3 +137,17 @@ Excel2010に対応しているが、基本的な動作は2016などにも対応�
 - コマンドライン上からパス＋キーワードを作成して、grep機能を作成する。
   解答はExcel_make_worksheet.pyのExecute1メソッドに記述する
   解答はExcel_make_worksheet.pyに記載している
+- Excelのグラフを作成できるようにする。
+
+### 調べる課題
+- セルの着色を変更したい時はどのようにすればよい？(検索ワード Color Cell)
+- 罫線を引きたい時はどのようにすればよい（検索ワードBorder)
+  - [border_style](https://openpyxl.readthedocs.io/en/latest/api/openpyxl.styles.borders.html?highlight=Border)
+- itel_colsとitel_rowsとは？
+- delete_colとは？
+- worksheet.dimensionとは？（セルの横幅をいじりたい時はどのようにする？）
+
+## pythonを用いてExcelでグラフを作成する方法
+
+
+
