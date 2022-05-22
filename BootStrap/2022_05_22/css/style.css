@@ -1,0 +1,20 @@
+nav a.navbar-brand{
+    font-size: 2.5rem;
+    font-weight: bold;
+    /* color: ; */
+}
+
+nav ul li{
+    font-size: 1.5rem;
+    
+}
+
+.navbar .nav-link:hover{
+    /* font-size: 1.5rem; */
+    color: rgba(255, 0, 102, 0.785)!important;
+    font-weight: bold;
+}
+
+body .content{
+    padding-top: 120px;
+}
