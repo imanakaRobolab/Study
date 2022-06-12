@@ -11,3 +11,10 @@
   - reduce
   - map
   - filter
+
+
+# 本日の目標 2022_06_13
+
+- chartJSのGetting_start
+
+[挙動確認用の URL](https://imanakarobolab.github.io/Study/javascript/chartjs/html/chart_js1.html)
