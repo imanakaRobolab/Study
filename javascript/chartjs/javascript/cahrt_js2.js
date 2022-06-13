@@ -18,7 +18,7 @@ const config = {
     type: 'line',
     data:data,
     options: {
-        indexAxis: 'y',
+
         scales: {
           x: {
             beginAtZero: true
