@@ -1,5 +1,6 @@
 
 const ctx = document.getElementById('myGraph');
+const ctx2 = document.getElementById('myGraph2');
 
 
 const data = {
@@ -50,3 +51,4 @@ const config = {
       }
 }
 const myChart = new Chart(ctx, config);
+const myChart2 = new Chart(ctx2, config);
