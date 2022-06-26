@@ -7,3 +7,7 @@
 - クライアント側でグラフを登録できるようにする。
 
 挙動確認用のURL[クライアントサイドとのコミュニケーション](https://imanakarobolab.github.io/Study/javascript/chartjs/html/chart_js3.html)
+
+- ChartJSのボーダーで複数データのグルーピングしたグラフを作成する。
+
+挙動確認用のURL[クライアントサイドとのコミュニケーション](https://imanakarobolab.github.io/Study/javascript/chartjs/html/chart_js4.html)
