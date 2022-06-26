@@ -6,4 +6,4 @@
 
 - クライアント側でグラフを登録できるようにする。
 
-挙動確認用のURL[クライアントサイドとのコミュニケーション](https://imanakarobolab.github.io/Study/javascript/chartjs/html/)
+挙動確認用のURL[クライアントサイドとのコミュニケーション](https://imanakarobolab.github.io/Study/javascript/chartjs/html/chart_js3.html)
