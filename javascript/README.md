@@ -25,3 +25,8 @@
 - chartJSのGetting_start
 
 [挙動確認用の URL](https://imanakarobolab.github.io/Study/javascript/chartjs/html/chart_js2.html)
+
+
+# 本日の目標 2022_07_03
+
+JavaScriptにおける、簡単なでもを作成する。
