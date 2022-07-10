@@ -1,0 +1,27 @@
+.nav-link{
+    color: rgba(255, 255, 255, 1);
+}
+
+.nav-link:hover{
+    color: red;
+}
+
+.nav-item{
+    width: 90%;
+    border-radius: 20%;
+    margin-top: 0;
+    margin-bottom: 10px;
+    padding-bottom: 0;
+    padding-left: 10px;
+}
+.nav-item:hover{
+    background-color: blue;
+}
+.heigh-control{
+    background-color: black;
+    height: 100vh;
+}
+
+.position-sticky{
+    top:0px;
+}
